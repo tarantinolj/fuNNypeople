@@ -1,0 +1,58 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(43,43,43);
+}
+.clock{
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+    border: solid 5px rgb(252,255,55);
+    position: absolute;
+}
+#seconds-hand{
+    position: absolute;
+    left: 173px;
+    bottom: 173px;
+    height: 160px;
+    width: 4px;
+    background-color: rgb(70,255,255);
+    opacity: 50%;
+    transform-origin: 0 100%;
+
+}
+#minutes-hand{
+    position: absolute;
+    left: 172px;
+    bottom: 172px;
+    height: 120px;
+    width: 6px;
+    background-color: rgb(253,120,255);
+    opacity: 50%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transform-origin: 0 100%;
+}
+#hours-hand{
+    position: absolute;
+    left: 171px;
+    bottom: 171px;
+    height: 100px;
+    width: 8px;
+    background-color: rgb(205,112,255);
+    opacity: 50%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transform-origin: 0 100%;
+}
+#center{
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: rgb(252,255,55);
+    position: absolute;
+    left: 170px;
+    bottom: 170px;
+}
